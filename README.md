@@ -27,9 +27,11 @@ npm start
 `https://account.altvr.com/api/content_packs/2043495985698571086/raw`
 - pass the url of the content pack as a query parameter, e.g.  
 `wss://mydoorbell.herokuapp.com?url=https://account.altvr.com/api/content_packs/2043495985698571086/raw`
-## two types of guns
+## Two types of guns
 - A gun is an entity that can fire particle effects controlled by a trigger (clickable button).
-- There are two types of guns: equippable guns and stand alone guns
+- There are two types of guns: equippable guns and standalone guns
+	- equippable guns are similar to the helmet MRE, all the guns are displayed in a row, click on the gun to equip it
+	- standalone guns are not equippable but can still fire by clicking on the trigger
 ## Equippable guns example:
 ```json
 [
@@ -126,6 +128,7 @@ npm start
 ]
 ```
 ## definitions:
+- "attachPoint" (optional) is the attach point of the gun, if not defined, the gun will be a standalone type gun.
 - "transform" (optional) is the unity transform of the gun including position, rotation and scale
 - "dimensions" (optional) is the dimension of the gun (used to defined the size of the collider of the gun menu)
 - "trigger" (optional) defines the transform and dimensions of the trigger (clickable button)

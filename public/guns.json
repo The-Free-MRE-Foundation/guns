@@ -1,0 +1,87 @@
+[
+	{
+		"name": "revolver",
+		"attachPoint": "left-hand",
+		"dimensions": {
+			"width": 0.04,
+			"height": 0.1,
+			"depth": 0.25
+		},
+		"model": {
+			"resourceId": "artifact:2044161675715674908",
+			"transform": {
+				"position": {
+					"x": 0.0445,
+					"y": 0,
+					"z": 0.2255
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": -90
+				}
+			}
+		},
+		"bullet": {
+			"resourceId": "artifact:2044161675061363483",
+			"transform": {
+				"position": {
+					"x": 0,
+					"y": 0.0447,
+					"z": 0.1548
+				}
+			},
+			"ttl": 10
+		}
+	},
+	{
+		"name": "confetti",
+		"transform": {
+			"position": {
+				"x": -1,
+				"y": 0,
+				"z": 0
+			}
+		},
+		"model": {
+			"resourceId": "artifact:2044223538646221085",
+			"transform": {
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			}
+		},
+		"bullet": {
+			"resourceId": "artifact:2044223538260345116",
+			"transform": {
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0.06
+				}
+			},
+			"ttl": 10
+		},
+		"trigger": {
+			"transform": {
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			},
+			"dimensions": {
+				"width": 0.05,
+				"height": 0.05,
+				"depth": 0.05
+			}
+		}
+	}
+]
